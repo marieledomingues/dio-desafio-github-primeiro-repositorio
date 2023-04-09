@@ -1,0 +1,13 @@
+Git é um sistema de controle de versão que permite o gerenciamento do código fonte de projetos de software. Existem duas formas de autenticação segura no Git: chave SSH e Token.
+
+Para iniciar um repositório no Git, é utilizado o comando "git init". Os arquivos em um repositório Git podem ser classificados em "tracked" e "untracked". A diferença entre eles é que os arquivos "tracked" são rastreáveis pelo Git, enquanto os "untracked" não estão no repositório.
+
+Os arquivos "tracked" podem ser divididos em três estágios: unmodified, modified e staged. "Unmodified" é um arquivo que não foi modificado, enquanto "modified" é um arquivo que foi modificado desde a última confirmação e "staged" é um arquivo que foi preparado para ser adicionado a um commit.
+
+Para mudar o status de um arquivo de "untracked" para "staged", utiliza-se o comando "git add". Para mudar o status de "staged" para "unmodified", é necessário criar um commit com o comando "git commit".
+
+O Git é um sistema distribuído, o que significa que existem cópias do repositório em diferentes locais, como na máquina de desenvolvimento e em um servidor remoto como o GitHub. Quando se faz um commit, os arquivos que estavam no "staged" são movidos para "unmodified" e são adicionados ao repositório local, que pode ser empurrado para um repositório remoto.
+
+Os comandos "git push" e "git pull" são usados para enviar e receber alterações entre o repositório local e o repositório remoto. O comando "git clone" é utilizado para baixar um repositório remoto para a máquina local.
+
+O comando "git status" é usado para monitorar o status dos arquivos no repositório Git. O comando "git config" é usado para configurar informações de usuário e outras configurações do Git.
